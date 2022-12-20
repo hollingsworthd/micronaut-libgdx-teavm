@@ -9,7 +9,7 @@ This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB 
 
 LibGDX apps such as this one can also be built to native, OpenGL-based apps on iOS, Android, Windows, Mac, and Linux, but that's not explored in this example.
 
-PR's licensed under Apache License Version 2.0 are welcome.
+PR's contributed under the Apache License Version 2.0 are welcome.
 
 ---
 
