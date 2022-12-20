@@ -1,4 +1,4 @@
-### Example App Using LibGDX, TeaVM, and Micronaut
+## Example App Using LibGDX, TeaVM, and Micronaut
 
 Full-stack Java demo. Java GUI widgets rendered on the HTML5 WebGL/Canvas in the browser. Java 8 through
 version 17 bytecode conversion to JavaScript done by TeaVM. Widget/GUI toolkit provided by LibGDX.
@@ -11,7 +11,7 @@ LibGDX apps such as this one can also be built as native, OpenGL-based apps on i
 
 PR's contributed under the Apache License Version 2.0 are welcome.
 
-#### The World's Most Exquisite Tech Stack
+### The World's Most Exquisite Tech Stack
 
 - [Gdx-teaVM](https://github.com/xpenatan/gdx-teavm)
 - [LibGDX](https://github.com/libgdx/libgdx)
@@ -19,7 +19,7 @@ PR's contributed under the Apache License Version 2.0 are welcome.
 - [TeaVM](https://github.com/konsoletyper/teavm)
 - [Micronaut](https://github.com/micronaut-projects/micronaut-core)
 
-#### Getting Started
+### Getting Started
 
 From the project root, start the server by running `./gradlew run` and then visit http://localhost:8080/.
 
