@@ -12,16 +12,20 @@ public class Compile {
 
   public static void main(String[] args) {
     deleteDir(new File("../server/src/main/resources/webapp"));
-
     TeaBuildConfiguration conf = new TeaBuildConfiguration();
-    conf.assetsPath.add(new File("./src/main/resources"));
+
+    //the toolkit uses the path <webappPath>/webapp (../server/src/main/resources/webapp)
     conf.webappPath = new File("../server/src/main/resources").getAbsolutePath();
-    conf.obfuscate = true;
+    conf.assetsPath.add(new File("./src/main/resources"));
+    conf.obfuscate = true; //due to a bug, this is required to be true to work
 
     TeaVMTool tool = TeaBuilder.config(conf);
     tool.setMainClass(Main.class.getName());
-    tool.setOptimizationLevel(TeaVMOptimizationLevel.FULL);
+    tool.setOptimizationLevel(TeaVMOptimizationLevel.ADVANCED);
     tool.setObfuscated(true);
+    tool.setShortFileNames(true);
+    tool.setSourceFilesCopied(false);
+    tool.setStrict(true);
     tool.setSourceMapsFileGenerated(false);
     TeaBuilder.build(tool);
   }
