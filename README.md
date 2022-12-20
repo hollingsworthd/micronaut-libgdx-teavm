@@ -7,6 +7,8 @@ Gradle.
 
 This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB uncompressed). On a modest ~2020 notebook with OpenJDK 17, the server startup time is 950 MS, page load time is 400 MS, Java heap size after GC is 16 MB, total process memory size is 350 MB, the runnable uber JAR with embedded Netty/Micronaut is 15.3 MB, and the build time is 50 seconds.
 
+---
+
 *The world's most exquisite tech stack:*
 
 - [Gdx-teaVM](https://github.com/xpenatan/gdx-teavm)
@@ -15,6 +17,10 @@ This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB 
 - [TeaVM](https://github.com/konsoletyper/teavm)
 - [Micronaut](https://github.com/micronaut-projects/micronaut-core)
 
+---
+
+Getting Started:
+
 From the project root, start the server by running `./gradlew run` and then visit http://localhost:8080/
 
-To build the executable run `./gradle clean build` and use `micronaut-libgdx-teavm/server/build/libs/server-all.jar`. This executable can be started in production by running `java -jar server-all.jar`.
+To build the executable run `./gradle clean build` and use `micronaut-libgdx-teavm/server/build/libs/server-all.jar`. This can be started in production by running `java -jar server-all.jar`.
