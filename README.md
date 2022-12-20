@@ -5,7 +5,7 @@ version 17 bytecode conversion to JavaScript done by TeaVM. Widget/GUI toolkit p
 Integrated using Gdx-teaVM, spun off from the Dragome project. Served by Micronaut. Built with
 Gradle.
 
-This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB uncompressed). On a modest ~2020 notebook with OpenJDK 17, the server startup time is 950 MS, page load time is 350 MS, Java heap size after GC is 16 MB, total process memory size is 350 MB, the runnable uber JAR with embedded Netty/Micronaut is 15.3 MB, and the build time is 45 seconds.
+This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB uncompressed). On a modest ~2020 notebook with OpenJDK 17, the server startup time is 950 MS, webpage load time is 350 MS, Java heap size after GC is 16 MB, total process memory size is 350 MB, the runnable uber JAR with embedded Netty/Micronaut is 15.3 MB, and the build time is 45 seconds.
 
 ---
 
