@@ -1,6 +1,6 @@
 ## Example App Using LibGDX, TeaVM, and Micronaut
 
-Full-stack Java demo. Java GUI widgets rendered on the HTML5 WebGL/Canvas in the browser. Java 8 through
+Full-stack Java demo. Java GUI widgets rendered in HTML5 WebGL/Canvas on the browser. Java 8 through
 version 17 bytecode conversion to JavaScript done by TeaVM. Widget/GUI toolkit provided by LibGDX.
 Integrated using Gdx-teaVM, spun off from the Dragome project. Served by Micronaut. Built with
 Gradle.
