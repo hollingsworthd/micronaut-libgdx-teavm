@@ -1,18 +1,18 @@
 version = '1.0.0-SNAPSHOT'
 group = 'com.example'
 
-subprojects{
-    apply plugin: 'java'
+subprojects {
+  apply plugin: 'java'
 
-    repositories {
-        mavenCentral()
-        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
-        maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
-        maven { url 'https://teavm.org/maven/repository/' }
-    }
+  repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
+    maven { url 'https://teavm.org/maven/repository/' }
+  }
 
-    java {
-        sourceCompatibility = JavaVersion.toVersion('17')
-        targetCompatibility = JavaVersion.toVersion('17')
-    }
+  java {
+    sourceCompatibility = JavaVersion.toVersion('17')
+    targetCompatibility = JavaVersion.toVersion('17')
+  }
 }
