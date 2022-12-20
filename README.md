@@ -5,7 +5,7 @@ version 17 bytecode conversion to JavaScript done by TeaVM. Widget/GUI toolkit p
 Integrated using Gdx-teaVM, spun off from the Dragome project. Served by Micronaut. Built with
 Gradle.
 
-This "hello world" example is 1.20 MB in compressed HTTP transfer size (6.14 MB uncompressed). On a modest ~2020 notebook, the server startup time is 950 MS, page load time is 400 MS, Java heap size after GC is 20 MB, and total process memory size is 350 MB.
+This "hello world" example is 1.20 MB in compressed HTTP transfer size (6.14 MB uncompressed). On a modest ~2020 notebook with OpenJDK 17, the server startup time is 950 MS, page load time is 400 MS, Java heap size after GC is 20 MB, and total process memory size is 350 MB.
 
 *The world's most exquisite tech stack:*
 
