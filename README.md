@@ -7,6 +7,10 @@ Gradle.
 
 This "hello world" example is 1.07 MB in compressed HTTP transfer size (5.43 MB uncompressed). On a modest ~2020 notebook with OpenJDK 17, the server startup time is 950 MS, webpage load time is 350 MS, Java heap size after GC is 16 MB, total process memory size is 350 MB, the runnable uber JAR with embedded Netty/Micronaut is 15.3 MB on disk, and the build time is 45 seconds.
 
+LibGDX can also be built to native iOS, Android, Windows, Mac, and Linux apps but that's not explored in this example.
+
+PR's licensed under Apache License Version 2.0 are welcome.
+
 ---
 
 *The world's most exquisite tech stack:*
