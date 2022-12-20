@@ -23,4 +23,4 @@ Getting Started:
 
 From the project root, start the server by running `./gradlew run` and then visit http://localhost:8080/
 
-To build the executable run `./gradle clean build` and use `micronaut-libgdx-teavm/server/build/libs/server-all.jar`. This can be started in production by running `java -jar server-all.jar`.
+To build an executable, run `./gradle clean build` and which generates `micronaut-libgdx-teavm/server/build/libs/server-all.jar`. This can be started in production by running `java -jar server-all.jar`.
