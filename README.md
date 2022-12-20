@@ -25,6 +25,6 @@ PR's contributed under the Apache License Version 2.0 are welcome.
 
 Getting Started:
 
-From the project root, start the server by running `./gradlew run` and then visit http://localhost:8080/
+From the project root, start the server by running `./gradlew run` and then visit http://localhost:8080/.
 
 To build an executable, run `./gradlew clean build` and which generates `micronaut-libgdx-teavm/server/build/libs/server-all.jar`. This can be started in production by running `java -jar server-all.jar`.
