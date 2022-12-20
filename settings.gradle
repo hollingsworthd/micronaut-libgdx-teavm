@@ -1,0 +1,3 @@
+rootProject.name="micronaut-libgdx-teavm"
+include 'client', 'server'
+

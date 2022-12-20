@@ -1,0 +1,12 @@
+dependencies {
+    implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+    implementation "com.github.xpenatan.gdx-teavm:backend-web:$project.gdxTeaVMVersion"
+    implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$project.gdxTeaVMVersion"
+    implementation "com.github.xpenatan.gdx-teavm:gdx-freetype-teavm:$project.gdxTeaVMVersion"
+}
+
+tasks.register('compileClient', JavaExec) {
+    classpath(sourceSets.main.runtimeClasspath)
+    mainClass.set('com.example.Compile')
+}
+
